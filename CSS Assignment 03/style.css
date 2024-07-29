@@ -1,0 +1,234 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-color: #111;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+.logo {
+    width: 165px;
+}
+nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.promo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+.salt {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    margin: 0px;
+}
+.salt img {
+    overflow-y: auto;
+    margin: 40px 10px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.welcome_saltn_pepper {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.welcome_image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.welcome_image img{
+    width: 190px;
+    height: 100px;
+    border-radius: 10px ;
+}
+.welcome_image ul{
+    padding: 0;
+}
+.welcome_image ul li{
+    list-style: none;
+}
+.welcome_image ul li a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.welcome_image ul li a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+.main1{
+    background-color: black;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main_branch{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.branch_image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn1{
+    background-color: #000000;
+    padding: 15px 30px;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: 1px solid #d40000;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.btn1:hover{
+    box-shadow: 1px 5px 9px #d40000;
+    transition: 0.2s;
+}
+
+.express_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.express_branch{
+    display: flex;
+    justify-content: center;    
+}
+.express1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 550px;
+}
+.express1 img{
+    width: 70%;
+}
+.follow{
+    display: flex;
+}
+.social_icons {
+    display: flex;
+    justify-content: center;    
+    gap: 20px;
+}
+.social_icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color: #d40000;
+    color: #ffffff;
+    border-radius: 50%;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.app ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0;
+}
+.app ul li{
+    list-style: none;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.contact-info {
+    flex: 3;
+    font-size: 15px;
+}
+
+.about {
+    flex: 5;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.footer-terms {
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+}
